@@ -41,7 +41,7 @@ app.use(express.json());
 
 app.use(session({
     secret:
-        process.env.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,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
 
     resave: false,
 
