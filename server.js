@@ -41,8 +41,7 @@ app.use(express.json());
 
 app.use(session({
     secret:
-        process.env.SESSION_SECRET ||
-        'change-this-atomscape-secret',
+        process.env.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,
 
     resave: false,
 
